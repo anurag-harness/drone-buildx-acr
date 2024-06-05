@@ -92,6 +92,8 @@ func main() {
 		os.Setenv("ARTIFACT_REGISTRY", publicUrl)
 	}
 
+	fmt.Println("ANURAG IN NEW ACR PLUGIN 1.1.7")
+
 	// invoke the base docker plugin binary
 	docker.Run()
 }
